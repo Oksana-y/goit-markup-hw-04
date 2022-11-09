@@ -42,12 +42,14 @@ p {
 }
 /*Header*/
 .header {
-  background-color: var(--main-background-color);
+  /* background-color: var(--main-background-color); */
+  border-bottom: 2px solid var(--borde-line-color);
+
 }
 .main-nav {
   display: flex;
   align-items: center;
-  border-bottom: 2px solid var(--borde-line-color);
+  /* border-bottom: 2px solid var(--borde-line-color); */
 }
 /* Logo */
 .logo {
@@ -111,7 +113,7 @@ p {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  fill: var(--icon-color);
+  fill: currentColor;
 }
 .data .icon:hover,
 .data .icon:focus {
@@ -233,6 +235,7 @@ p {
 .team-card .file {
   max-width: 270px;
   text-align: center;
+  background-color: var(--main-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -312,6 +315,7 @@ p {
 .block {
   display: none;
 }
+
 /* Блок сортувальних кнопок */
 .btn {
   display: flex;
